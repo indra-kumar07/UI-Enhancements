@@ -1,0 +1,25 @@
+{
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",    
+    "al.enableCodeActions": true,
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "CRS.ObjectNameSuffix": "",
+    "CRS.RemoveSuffixFromFilename": false,
+    "alOutline.codeCleanupActions": [
+        "RemoveWithStatements",
+        "RemoveUnusedVariables",
+        "RemoveBeginEnd",
+        "RemoveEmptySections",
+        "RemoveEmptyLines",
+        "AddMissingParentheses",
+        "SortProperties",
+        "SortVariables",
+        "FixKeywordsCase",
+        "FixIdentifiersCase"
+    ]
+}
